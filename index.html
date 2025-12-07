@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MSC Technologies</title>
+<style>
+ body { margin:0; font-family:Arial; background:#fff; }
+ header { display:flex; justify-content:space-between; align-items:center; background:#8B0000; padding:10px 20px; color:#fff; }
+ header img { width:130px; }
+ nav ul { margin:0; padding:0; list-style:none; display:flex; gap:20px; }
+ nav a { text-decoration:none; color:goldenrod; font-weight:bold; }
+ nav a:hover { color:#fff; }
+ /* Banner */
+ .banner { background:#000 url('banner.jpg') center/cover no-repeat; height:280px; display:flex; justify-content:center; align-items:center; color:#fff; font-size:32px; font-weight:bold; }
+ /* Sections */
+ section { padding:40px 20px; }
+ h2 { color:#8B0000; margin-bottom:20px; }
+ .services, .products-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:20px; }
+ .card { border:1px solid #ccc; border-radius:10px; padding:15px; text-align:center; }
+ .card img { width:100%; height:140px; object-fit:cover; border-radius:8px; }
+ .whatsapp-btn { position:fixed; bottom:20px; right:20px; background:#25D366; padding:12px 20px; border-radius:30px; color:#fff; text-decoration:none; font-weight:bold; }
+ .upload-box { border:2px dashed #aaa; padding:30px; text-align:center; border-radius:10px; }
+</style>
+</head>
+<body>
+<header>
+ <img src="https://drive.google.com/uc?export=view&id=1u8fG_zLh98A44WYm_MzV0QRO-nhC5zXl" />
+ <nav>
+   <ul>
+     <li><a href="#home">Home</a></li>
+     <li><a href="#services">Services</a></li>
+     <li><a href="#products">Products</a></li>
+     <li><a href="#videos">Videos</a></li>
+     <li><a href="#contact">Contact</a></li>
+   </ul>
+ </nav>
+</header>
+<div class="banner" id="home">MSC TECHNOLOGIES</div>
+<section id="services">
+ <h2>Our Services</h2>
+ <div class="services">
+   <div class="card">Desktop Assembly</div>
+   <div class="card">Laptop Repair</div>
+   <div class="card">SSD Installation</div>
+   <div class="card">Windows Installation</div>
+   <div class="card">Software Fix</div>
+   <div class="card">Hardware Repair</div>
+ </div>
+</section>
+<section id="products">
+ <h2>Products</h2>
+ <div class="products-grid">
+   <div class="card"><img src="bag.jpg"><p>Bag – Name Here</p></div>
+   <div class="card"><img src="monitor.jpg"><p>Monitor – Name Here</p></div>
+   <div class="card"><img src="ssd.jpg"><p>SSD – Name Here</p></div>
+   <div class="card"><img src="rgbfan.jpg"><p>RGB Fan – Name Here</p></div>
+   <div class="card"><img src="hdd.jpg"><p>Hard Drive – Name Here</p></div>
+ </div>
+</section>
+<section id="videos">
+ <h2>Your Creator Videos</h2>
+ <div class="upload-box">Click + to Upload Your Video</div>
+</section>
+<section id="contact">
+ <h2>Contact Us</h2>
+ <p>Instagram | YouTube | WhatsApp</p>
+ <p>Location Map Coming Here</p>
+</section>
+<a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-btn">Chat on WhatsApp</a>
+</body>
+</html>
